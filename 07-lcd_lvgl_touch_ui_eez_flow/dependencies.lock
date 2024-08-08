@@ -1,0 +1,44 @@
+dependencies:
+  espressif/button:
+    component_hash: e909337d12ca9e1148007c9e03bb0fdc43d1a7df8b2cf44a76458cc044001a96
+    source:
+      type: service
+    version: 3.2.2
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      type: service
+    version: 0.5.3
+  espressif/esp_lcd_touch:
+    component_hash: 779b4ba2464a3ae85681e4b860caa5fdc35801458c23f3039ee761bae7f442a4
+    source:
+      type: service
+    version: 1.1.2
+  espressif/esp_lvgl_port:
+    component_hash: 531c0525b5a5d6c05c45a147baa0626209aea6b6c0e01a7af7e6bf151878d056
+    source:
+      type: service
+    version: 2.2.2
+  espressif/led_indicator:
+    component_hash: 8ffbd4d0c3f996c10b5d4d23e1f13fa012684e7f97369a0d5442b8d58e6b587f
+    source:
+      type: service
+    version: 0.9.3
+  espressif/led_strip:
+    component_hash: fc66f8544851132555bc668475f7b68acd6a211c8075db5ce1951cbfa27dfb88
+    source:
+      type: service
+    version: 2.5.4
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+  lvgl/lvgl:
+    component_hash: 2a8f619b5c2b1c7ad116c33d43dae8989c76739068f406a7e8ba9221e1085f17
+    source:
+      type: service
+    version: 9.1.0
+manifest_hash: 3b7b9411d18fd0bb6d68ff193e9559308a42f6c9d4e5b9376f5e6ce862c00bb4
+target: esp32c3
+version: 1.0.0
